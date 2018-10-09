@@ -1,0 +1,42 @@
+body{
+  background-image:url("/static/images/pexels.jpeg");
+  background-size:100%;
+}
+p{
+  color:#00ff00;
+  font-size: 22;
+}
+p2{
+  color:#ffff33;
+  font-size: 22;
+}
+h1{
+  color:#ffffff;
+  text-align: center;
+}
+h2{
+  color:#ffccff;
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}

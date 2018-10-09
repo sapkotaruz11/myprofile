@@ -1,0 +1,22 @@
+p{
+  color:#b3f442;
+}
+h1{
+  color:#ffffff;
+}
+h2{
+  color:#32d8e0;
+}
+
+img{
+
+  float: right;
+  border-radius: 50%;
+  width: 40%;
+  height: 50%;
+
+}
+body{
+  background-image: url('/static/images/milkyway.jpeg');
+  background-size: 100%;
+}

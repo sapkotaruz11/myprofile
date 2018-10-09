@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rupesh Sapkota</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="{% static '/css/stylepage.css' %}"/>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">My Profile</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="{% url 'home'}">About Me</a></li>
+      <li><a href="{% url 'projects'%}">Projects</a></li>
+      <li><a href="{% url 'resume'%}">Resume</a></li>
+    </ul>
+  </div>
+</nav>
+<div>
+  <h1>Welcome,</h1>
+</div>
+<img src="/static/images/mypic2.jpg">
+<h2>I am Rupesh Sapkota and this is my Story</h2>
+<div>
+  <p>Born and raised in a small town of Nepal, called as Pokhara,which people say is a beauty of heaven.I spent most of my childhood there
+    and also completed my basic education there.</p><br>
+    <p>After completion of my high school I went to  persue my higher education.So, I came to Bangalore.</p>
+      <p>I am currently studying BE(Computer Science and Engineering) and also doing an internship at EveryCrave.</p>
+  </div>
+
+</body>
+</html>
